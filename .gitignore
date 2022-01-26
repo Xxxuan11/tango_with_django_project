@@ -1,0 +1,9 @@
+#data file
+db.sqlite3
+
+#pycache
+tango_with_django_project/__pycache__
+
+#Ds_store
+.DS_Store
+tango_with_django_project/.DS_Store
