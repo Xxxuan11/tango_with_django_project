@@ -14,12 +14,9 @@
         </div>
 
         <div>
-            <a href="rango">Index</a><br />
-            <img src="{% static 'images/rango.jpg' %}"
-                 alt="Picture of rango"/> <!-- New Line -->
-            <img src="/media/cat.jpg"
-                 alt="Picture of a Cat"/> <!-- New Line -->
-
+            <a href="/rango/">Index</a><br />
+            <img src="{% static 'images/rango.jpg' %}" alt="Picture of Rango" /> 
+            <img src="{{ MEDIA_URL }}cat.jpg" alt="Picture of a Cat." /> 
         </div>
     </body>
 </html>
