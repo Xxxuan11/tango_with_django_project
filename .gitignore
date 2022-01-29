@@ -1,7 +1,10 @@
 #pycache
+__pycache__
 */__pycache__
 */*/__pycache__
 
 #Ds_store
 .DS_Store
 
+#database
+db.sqlite3
